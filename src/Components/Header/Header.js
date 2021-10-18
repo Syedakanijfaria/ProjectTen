@@ -20,10 +20,11 @@ const Header = () => {
                         <div className="menu-container ">
                             <ul className="d-flex align-items-end justify-content-end">
                                 <NavLink to="/home">Home</NavLink>
-                                <NavLink to="/courses">Courses</NavLink>
-                                <NavLink to="/teacher">Teacher</NavLink>
-                                <a href="#login">Login</a>
+                                <NavLink to="/service">Service</NavLink>
+                                <NavLink to="/package" >Package</NavLink>
+                                <NavLink to="/schedule">Schedule</NavLink>
                                 <NavLink to="/about">About</NavLink>
+                                <NavLink to="/login">Login or Sign-In</NavLink>
                             </ul>
                         </div>
                     </div>

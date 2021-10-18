@@ -1,0 +1,17 @@
+.logo-img{
+    display: flex;
+}
+.header nav {
+    background-color: rgb(31, 31, 31);
+    line-height: 40px;
+}
+.header nav a, h3{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.header nav a:hover{
+    color:#ffc107;
+}
