@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../Hooks/useFirebase.js';
+import useAuth from '../../Hooks/useAuth.js';
+
+
 import './Login.css';
 
 const Login = () => {
-    const { user, signInGoogle } = useFirebase();
+    const { signInGoogle } = useAuth();
     return (
         <div className="login">
             <div>
