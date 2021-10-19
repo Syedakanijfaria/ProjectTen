@@ -10,13 +10,13 @@ const Header = () => {
     const { user, logOut } = useAuth();
 
     return (
-        <div className="header">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div className="header sticky-top">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     {/* Logo and logo-icon */}
                     <div className="col-md-2">
                         <div className="logo-img d-flex">
-                            <img className="w-50" src={logo} alt="" />
+                            <img className="w-100" src={logo} alt="" />
                             <h3 className="m-auto">POWER GYMNSTER</h3>
                         </div>
                     </div>
