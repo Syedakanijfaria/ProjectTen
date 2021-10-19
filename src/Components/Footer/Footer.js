@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
 
@@ -6,30 +7,69 @@ const Footer = () => {
 
     return (
         <div className="footer">
-            <div className="footer-container">
+            <div className="footer-container p-4">
                 <div className="row">
-                    <div className="col-md-4">
-                        <div className="left-container h-50">
-                            {/* fake daat_3 loading container */}
-                            <h3>Popular courses</h3>
-
+                    <div className="col-md-3 me-5">
+                        <div className="left-container">
+                            <h3>Opening Hours</h3>
+                            <div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Days</th>
+                                            <th scope="col">Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Sunday</th>
+                                            <td>06.00-20.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Monday</th>
+                                            <td>06.00-20.00</td>
+                                        </tr>
+                                        <tr className="table-light">
+                                            <th scope="row">Tuesday</th>
+                                            <td colspan="2">06.00-20.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Wednesday</th>
+                                            <td colspan="2">06.00-20.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Thursday</th>
+                                            <td colspan="2">06.00-20.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Friday</th>
+                                            <td colspan="2">06.00-20.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Saturday</th>
+                                            <td colspan="2">06.00-20.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                     {/* Usefull link in footer */}
-                    <div className="col-md-4 ps-5">
+                    <div className="col-md-4 ms-auto ps-5">
                         <div className="middle-container">
                             <h3>Usefull Links</h3>
                             <ul>
                                 <li className="footer-menu">Home</li>
-                                <li className="footer-menu">Courses</li>
-                                <li className="footer-menu">Teachers</li>
-                                <li className="footer-menu"> About</li>
+                                <li className="footer-menu">Services</li>
+                                <li className="footer-menu">Package</li>
+                                <li className="footer-menu">Trainers</li>
+                                <li className="footer-menu"> About us</li>
                                 <li className="footer-menu"> Login</li>
                             </ul>
                         </div>
                     </div>
                     {/* important contact information */}
-                    <div className="col-md-4">
+                    <div className="col-md-4 ms-auto">
                         <div className="right-container">
                             <h3>Contact Us</h3>
                             <p className="footer-menu"><i className="fas fa-paper-plane"></i> powergymnster@email.com</p>

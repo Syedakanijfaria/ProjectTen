@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <div className="header sticky-top">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     {/* Logo and logo-icon */}
                     <div className="col-md-2">
@@ -25,10 +25,10 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
                                 <Link to="/home">Home</Link>
-                                <Link to="/service">Service</Link>
+
                                 <Link to="/package" >Package</Link>
-                                <Link to="/trainer">Trainer</Link>
-                                <Link to="/about">About</Link>
+                                <Link to="/trainer">Trainers</Link>
+                                <Link to="/about">About us</Link>
                                 <span style={{ color: 'white' }}>{user.displayName}</span>
                                 {
                                     user.email ? <button onClick={logOut}>
