@@ -1,26 +1,26 @@
 [
     {
-        "key": "B002",
-        "type": "CARDIO",
-        "name": "INDOOR CYCLING",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://www.jetss.com/wp-content/uploads/2021/01/Fashion-School.jpg",
-        "price": 100
-    },
-    {
         "key": "B006",
         "type": "STRENGTH",
         "name": "WEIGHT LIFTING",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://www.ecpi.edu/sites/default/files/Culinary%20May%209.png",
+        "img": "https://i.ibb.co/MkT197S/Background-4.png",
         "price": 70
+    },
+    {
+        "key": "B002",
+        "type": "CARDIO",
+        "name": "INDOOR CYCLING",
+        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+        "img": "https://i.ibb.co/d2F9HTy/Background-7.png",
+        "price": 100
     },
     {
         "key": "B007",
         "type": "CARDIO",
         "name": "BODY WORKS",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.guim.co.uk/img/media/dbc1828bdc7fe5ba057259103eabe93a88391560/0_129_3865_2318/master/3865.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=41a2d375b8879fa88b1253eeeaaeab00",
+        "img": "https://i.ibb.co/F8rDCRh/Background-1.png",
         "price": 60
     },
     {
@@ -28,7 +28,7 @@
         "type": "STRENGTH",
         "name": "KETTLEBELL POWER",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://minnesota.cbslocal.com/wp-content/uploads/sites/15909630/2013/07/dance.jpg",
+        "img": "https://i.ibb.co/28xF06G/Background-8.png",
         "price": 85
     },
     {
@@ -36,7 +36,7 @@
         "type": "FUNCTIONAL",
         "name": "CORE POWER",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://st2.depositphotos.com/1018611/11767/i/950/depositphotos_117670040-stock-photo-kids-greeting-in-different-languages.jpg",
+        "img": "https://i.ibb.co/4FdkdZm/Background-5.png",
         "price": 50
     },
     {
@@ -44,7 +44,7 @@
         "type": "CARDIO",
         "name": "SELF DEFENCE",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://scoopempire.com/wp-content/uploads/2019/03/ask-the-teacher-february-2017.jpeg",
+        "img": "https://i.ibb.co/BjZWx8V/Background-2.png",
         "price": 90
     },
     {
@@ -52,7 +52,7 @@
         "type": "FUNCTIONAL",
         "name": "AEROBICS",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://scoopempire.com/wp-content/uploads/2019/03/ask-the-teacher-february-2017.jpeg",
+        "img": "https://i.ibb.co/sP24HzX/Background-6.png",
         "price": 90
     },
     {
@@ -60,7 +60,7 @@
         "type": "OPEN GYM",
         "name": "BOXING",
         "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://scoopempire.com/wp-content/uploads/2019/03/ask-the-teacher-february-2017.jpeg",
+        "img": "https://i.ibb.co/LQq47gp/Background-3.png",
         "price": 90
     }
 ]
