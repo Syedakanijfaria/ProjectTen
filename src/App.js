@@ -9,6 +9,10 @@ import About from './Components/About/About.js';
 import NotFound from './Components/NotFound/NotFound.js';
 import Footer from './Components/Footer/Footer.js';
 import AuthProvider from './Context/AuthProvider.js';
+import Trainer from './Components/Trainer/Trainer.js';
+import Package from './Components/Package/Package.js';
+import Details from './Components/Details/Details/Details.js';
+
 
 
 
@@ -26,6 +30,15 @@ function App() {
             </Route>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/details/:serviceId">
+              <Details></Details>
+            </Route>
+            <Route path="/trainer">
+              <Trainer></Trainer>
+            </Route>
+            <Route path="/package">
+              <Package></Package>
             </Route>
             <Route path="/about">
               <About></About>

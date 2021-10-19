@@ -27,7 +27,7 @@ const Header = () => {
                                 <NavLink to="/home">Home</NavLink>
                                 <NavLink to="/service">Service</NavLink>
                                 <NavLink to="/package" >Package</NavLink>
-                                <NavLink to="/schedule">Schedule</NavLink>
+                                <NavLink to="/trainer">Trainer</NavLink>
                                 <NavLink to="/about">About</NavLink>
                                 <span style={{ color: 'white' }}>{user.displayName}</span>
                                 {
