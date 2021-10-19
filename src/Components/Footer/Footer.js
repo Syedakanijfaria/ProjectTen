@@ -13,7 +13,7 @@ const Footer = () => {
                         <div className="left-container">
                             <h3>Opening Hours</h3>
                             <div>
-                                <table class="table">
+                                <table className="table">
                                     <thead>
                                         <tr>
                                             <th scope="col">Days</th>
@@ -31,23 +31,23 @@ const Footer = () => {
                                         </tr>
                                         <tr className="table-light">
                                             <th scope="row">Tuesday</th>
-                                            <td colspan="2">06.00-20.00</td>
+                                            <td colSpan="2">06.00-20.00</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Wednesday</th>
-                                            <td colspan="2">06.00-20.00</td>
+                                            <td colSpan="2">06.00-20.00</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Thursday</th>
-                                            <td colspan="2">06.00-20.00</td>
+                                            <td colSpan="2">06.00-20.00</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Friday</th>
-                                            <td colspan="2">06.00-20.00</td>
+                                            <td colSpan="2">06.00-20.00</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">Saturday</th>
-                                            <td colspan="2">06.00-20.00</td>
+                                            <td colSpan="2">06.00-20.00</td>
                                         </tr>
                                     </tbody>
                                 </table>
