@@ -1,13 +1,23 @@
 import { signInWithEmailLink } from '@firebase/auth';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth.js';
 import './Login.css';
 
 const Login = () => {
 
     const { signInGoogle } = useAuth();
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/';
 
+    const handleGoogleLogin = () => {
+        signInGoogle()
+            .then((result) => {
+                history.push(redirect_uri)
+            })
+        // .finally(() => setIsLoading(false));
+    }
     return (
         <div className="login">
             <div>
@@ -20,7 +30,7 @@ const Login = () => {
                         <input type="submit" value="Sign-In" />
                     </form>
                     <div>---------------or-----------------</div>
-                    <button className="btn-regular" onClick={signInGoogle}>Google Sign-In</button>
+                    <button className="btn-regular" onClick={handleGoogleLogin}>Google Sign-In</button>
                 </div>
                 <br />
                 <div class="border border-dark">
