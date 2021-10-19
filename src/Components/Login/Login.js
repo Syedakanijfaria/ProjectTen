@@ -17,14 +17,14 @@ const Login = () => {
                         <input type="email" id="" placeholder="Your Email" />
                         <br />
                         <input type="password" name="" id="" placeholder="Your Password" /> <br />
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Sign-In" />
                     </form>
+                    <div>---------------or-----------------</div>
+                    <button className="btn-regular" onClick={signInGoogle}>Google Sign-In</button>
                 </div>
                 <br />
                 <div class="border border-dark">
                     <p>New to POWER GYMNSTER?  <Link to="register"><button className="btn-regular">Create Your Account</button></Link></p>
-                    <div>---------------or-----------------</div>
-                    <button className="btn-regular" onClick={signInGoogle}>Google Sign-In</button>
                 </div>
             </div>
         </div>

@@ -14,16 +14,14 @@ const Register = () => {
                         <input type="password" placeholder="Your Password" /> <br />
                         <input type="password" placeholder="Re-enter Your Password" />
                         <br />
-                        <input type="submit" value="Submit" />
+                        <input className="ms-5" type="submit" value="Sign-Up" />
                     </form>
                 </div>
                 <br />
                 <div class="border border-dark">
-                    <p>Already have an account?<Link to="/login">  <button className="btn-regular">Sign-In</button></Link></p>
-                    <div>---------------or-----------------</div>
-                    <button className="btn-regular">Google Sign-In</button>
+                    <p>Already have an account?</p><Link to="login">
+                        <button className="btn-regular ms-5">Sign-In</button></Link>
                 </div>
-
             </div>
         </div >
     );

@@ -10,8 +10,8 @@ const Header = () => {
     const { user, logOut } = useAuth();
 
     return (
-        <div className="header">
-            <nav>
+        <div className="container">
+            <div className="container">
                 <div className="row">
                     {/* Logo and logo-icon */}
                     <div className="col-md-2">
@@ -22,8 +22,8 @@ const Header = () => {
                     </div>
                     {/* header nav link */}
                     <div className="col-md-10 m-auto">
-                        <div className="menu-container ">
-                            <ul className="d-flex align-items-end justify-content-end">
+                        <div className="menu-container">
+                            <ul className="d-flex align-items-end justify-content-end me-5">
                                 <NavLink to="/home">Home</NavLink>
                                 <NavLink to="/service">Service</NavLink>
                                 <NavLink to="/package" >Package</NavLink>
@@ -40,7 +40,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
         </div>
     );
 };
