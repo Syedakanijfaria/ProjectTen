@@ -7,11 +7,6 @@
 ### Code Link :- https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-Syedakanijfaria
 
 
--This project was bootstrapped with Create React App.
-
-+In the project directory, you can run:
-
-*In the project directory, you can run:
 
 It's based on different types of education.
 
