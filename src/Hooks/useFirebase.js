@@ -16,21 +16,32 @@ const useFirebase = () => {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
-    const createNewUserWithEmail = () => {
-        //e.preventDefaault();
+    const handleNewUserWithEmail = e => {
+        e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 //const user = result.user;
                 console.log(result.user);
             })
     }
-    const signInWithEmail = () => {
+
+    const handleEmailChange = e => {
+        setEmail(e.target.value);
+    }
+
+    const handlePasswordChange = e => {
+        setPassword(e.target.value);
+    }
+
+    const handleSignInWithEmail = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 //const user = result.user;
                 console.log(result.user);
             })
     }
+
+
 
     const signInGoogle = () => {
         setIsLoading(true);
@@ -62,8 +73,8 @@ const useFirebase = () => {
     return {
         user,
         isLoading,
-        createNewUserWithEmail,
-        signInWithEmail,
+        handleNewUserWithEmail,
+        handleSignInWithEmail,
         signInGoogle,
         logOut
     }
