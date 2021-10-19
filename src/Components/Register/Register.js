@@ -1,3 +1,4 @@
+import { createUserWithEmailAndPassword } from '@firebase/auth';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Register.css';
@@ -8,7 +9,7 @@ const Register = () => {
             <div>
                 <div class="border border-dark">
                     <h2>Create Your Account</h2>
-                    <form onSubmit="">
+                    <form onSubmit={createUserWithEmailAndPassword}>
                         <input type="email" placeholder="Your Email" /> <br />
                         <input type="password" placeholder="Your Password" /> <br />
                         <input type="password" placeholder="Re-enter Your Password" />

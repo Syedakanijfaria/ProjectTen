@@ -1,3 +1,4 @@
+import { signInWithEmailLink } from '@firebase/auth';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth.js';
@@ -12,7 +13,7 @@ const Login = () => {
             <div>
                 <div class="border border-dark">
                     <h2>Sign-In</h2>
-                    <form onSubmit="">
+                    <form onSubmit={signInWithEmailLink}>
                         <input type="email" id="" placeholder="Your Email" />
                         <br />
                         <input type="password" name="" id="" placeholder="Your Password" /> <br />
