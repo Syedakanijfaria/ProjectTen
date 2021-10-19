@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner.js';
-import Services from './Services/Services.js';
+import Services from '../Services/Services.js';
 
 
 
