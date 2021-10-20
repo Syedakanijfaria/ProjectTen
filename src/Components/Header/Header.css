@@ -3,7 +3,7 @@
     background-color: #a7b3ab;
     line-height: 40px;
 }
-.header nav a, h1{
+.header nav a{
     text-decoration: none;
     color: black;
     margin-right: 20px;
