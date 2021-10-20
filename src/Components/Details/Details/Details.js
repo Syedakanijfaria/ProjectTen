@@ -8,7 +8,7 @@ const Details = () => {
 
     const [serviceDetails, setServiceDetails] = useState([]);
 
-    //const [singleService, setSingleService] = useState({});
+    const [singleService, setSingleService] = useState({});
 
     useEffect(() => {
         fetch("/servicesdetails.json")
@@ -16,18 +16,17 @@ const Details = () => {
             .then(data => setServiceDetails(data.service));
     }, []);
 
-    // useEffect(() => {
-    //     const foundService = serviceDetails.find(
-    //         service => service.login.key === serviceId)
-    //     console.log(foundService)
+    useEffect(() => {
+        const foundService = serviceDetails.find(service => service.login.key === serviceId)
+        setSingleService(foundService)
 
-    // }, [serviceDetails])
+    }, [serviceDetails])
 
 
     return (
         <div className="container">
             <h1>{serviceId}</h1>
-            {/* <h1>this is booking: {singleService?.name}</h1> */}
+            <h1>this is booking: {singleService?.name}</h1>
             <div className="row">
                 <div className="col col-rows-1 col=-rows-md-1 g-4">
                     <div className="card" >

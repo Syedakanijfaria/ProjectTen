@@ -1,11 +1,9 @@
-
 import React from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth.js';
 import './Login.css';
 
 const Login = () => {
-
 
     const { signInGoogle, handleSignInWithEmail } = useAuth();
     const location = useLocation();
@@ -24,15 +22,12 @@ const Login = () => {
             <div>
                 <div className="border border-dark">
                     <h2>Sign-In</h2>
-                    <form onSubmit={handleSignInWithEmail}>
+                    <div>
                         <input type="email" placeholder="Your Email" />
                         <br />
                         <input type="password" placeholder="Your Password" /> <br />
-                        <input type="submit" value="Sign-In" />
-                    </form>
-
-
-
+                        <button onClick={handleSignInWithEmail}>Sign-In</button>
+                    </div>
                     <div>---------------or-----------------</div>
                     <button className="btn-regular" onClick={handleGoogleLogin}>Google Sign-In</button>
                 </div>
