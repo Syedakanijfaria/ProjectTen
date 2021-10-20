@@ -3,64 +3,48 @@
         "key": "B006",
         "type": "STRENGTH",
         "name": "WEIGHT LIFTING",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/MkT197S/Background-4.png",
-        "price": 70
+        "img": "https://i.ibb.co/MkT197S/Background-4.png"
     },
     {
         "key": "B002",
         "type": "CARDIO",
         "name": "INDOOR CYCLING",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/d2F9HTy/Background-7.png",
-        "price": 100
+        "img": "https://i.ibb.co/d2F9HTy/Background-7.png"
     },
     {
         "key": "B007",
         "type": "CARDIO",
         "name": "BODY WORKS",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/F8rDCRh/Background-1.png",
-        "price": 60
+        "img": "https://i.ibb.co/F8rDCRh/Background-1.png"
     },
     {
         "key": "B008",
         "type": "STRENGTH",
         "name": "KETTLEBELL POWER",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/28xF06G/Background-8.png",
-        "price": 85
+        "img": "https://i.ibb.co/28xF06G/Background-8.png"
     },
     {
         "key": "B005",
         "type": "FUNCTIONAL",
         "name": "CORE POWER",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/4FdkdZm/Background-5.png",
-        "price": 50
+        "img": "https://i.ibb.co/4FdkdZm/Background-5.png"
     },
     {
         "key": "B009",
         "type": "CARDIO",
         "name": "SELF DEFENCE",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/BjZWx8V/Background-2.png",
-        "price": 90
+        "img": "https://i.ibb.co/BjZWx8V/Background-2.png"
     },
     {
         "key": "B003",
         "type": "FUNCTIONAL",
         "name": "AEROBICS",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/sP24HzX/Background-6.png",
-        "price": 90
+        "img": "https://i.ibb.co/sP24HzX/Background-6.png"
     },
     {
         "key": "B004",
         "type": "OPEN GYM",
         "name": "BOXING",
-        "des": "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
-        "img": "https://i.ibb.co/LQq47gp/Background-3.png",
-        "price": 90
+        "img": "https://i.ibb.co/LQq47gp/Background-3.png"
     }
 ]

@@ -1,0 +1,148 @@
+{
+    "service": [
+        {
+            "name": "WEIGHT LIFTING",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B006"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https: //i.ibb.co/MkT197S/Background-4.png"
+            }
+        },
+        {
+            "name": "INDOOR CYCLING",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B002"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/d2F9HTy/Background-7.png"
+            }
+        },
+        {
+            "name": "BODY WORKS",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B007"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/F8rDCRh/Background-1.png"
+            }
+        },
+        {
+            "name": "KETTLEBELL POWER",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B008"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/28xF06G/Background-8.png"
+            }
+        },
+        {
+            "name": "CORE POWER",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B005"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/4FdkdZm/Background-5.png"
+            }
+        },
+        {
+            "name": "SELF DEFENCE",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B009"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/BjZWx8V/Background-2.png"
+            }
+        },
+        {
+            "name": "AEROBICS",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B003"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/sP24HzX/Background-6.png"
+            }
+        },
+        {
+            "name": "BOXING",
+            "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "location": {
+                "street": "9278 new road",
+                "city": "kilcoole"
+            },
+            "email": "brad.gibson@example.com",
+            "login": {
+                "username": "silverswan131",
+                "password": "firewall",
+                "key": "B004"
+            },
+            "phone": "011-962-7516",
+            "picture": {
+                "thumbnail": "https://i.ibb.co/LQq47gp/Background-3.png"
+            }
+        }
+    ]
+}
