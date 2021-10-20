@@ -7,22 +7,25 @@ const Register = () => {
     const { handleNewUserWithEmail, handlePasswordChange, handleEmailChange } = useAuth();
     return (
         <div className="register">
-            <div>
-                <div className="border border-dark">
+            <div className="">
+                <div className="border border-dark bg-color p-4 mt-5">
                     <h2>Create Your Account</h2>
-                    <div>
+                    <div className="p-4">
                         <label htmlFor="email" >Email: </label>
                         <input onBlur={handleEmailChange} type="email" placeholder="Your Email" /> <br />
                         <label htmlFor="email" >Password: </label>
                         <input onBlur={handlePasswordChange} type="password" placeholder="Your Password" /> <br />
                         <br />
-                        <button className="ms-5" onClick={handleNewUserWithEmail} >Sign-up</button>
+                        <button className="px-4 btn-warning" onClick={handleNewUserWithEmail} >Sign-up</button>
                     </div>
                 </div>
                 <br />
-                <div className="border border-dark">
-                    <p>Already have an account?</p><Link to="login">
-                        <button className="btn-regular ms-5">Sign-In</button></Link>
+                <div className="border bg-color border-dark p-4">
+                    <p>Already have an account?
+                        <Link to="login">
+                            <button className="btn-warning px-4">Sign-In</button>
+                        </Link>
+                    </p>
                 </div>
             </div>
         </div >

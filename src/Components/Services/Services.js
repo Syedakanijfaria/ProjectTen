@@ -15,8 +15,8 @@ const Services = () => {
     return (
         <div className="services">
             <div className="m-5 p-5">
-                <h5>WHAT WE CAN OFFER</h5>
-                <h2 className="text-primary mt-5">Our Services</h2>
+                <h5 className=" text-center text-warning">WHAT WE CAN OFFER</h5>
+                <h1 className=" text-center text-decoration-underline">Our Services</h1>
                 <div className="row mt-5">
                     <div className="col">
                         <div className="row row-cols-1 row-cols-md-3 g-4">

@@ -19,21 +19,25 @@ const Login = () => {
     }
     return (
         <div className="login">
-            <div>
-                <div className="border border-dark">
+            <div className="">
+                <div className="border border-dark bg-color p-4 mt-5">
                     <h2>Sign-In</h2>
-                    <div>
-                        <input type="email" placeholder="Your Email" />
+                    <div className="p-4">
+                        <p>Email: <input type="email" placeholder="Your Email"></input></p>
                         <br />
-                        <input type="password" placeholder="Your Password" /> <br />
-                        <button onClick={handleSignInWithEmail}>Sign-In</button>
+                        <p>Password: <input type="password" placeholder="Your Password"></input></p> <br />
+                        <button className="px-4 btn-warning" onClick={handleSignInWithEmail}>Sign-In</button>
                     </div>
                     <div>---------------or-----------------</div>
-                    <button className="btn-regular" onClick={handleGoogleLogin}>Google Sign-In</button>
+                    <button className="px-4 btn-warning" onClick={handleGoogleLogin}>Google Sign-In</button>
                 </div>
                 <br />
-                <div className="border border-dark">
-                    <p>New to POWER GYMNSTER?  <Link to="register"><button className="btn-regular">Create Your Account</button></Link></p>
+                <div className="border border-dark  bg-color p-4">
+                    <p>New to POWER GYMNSTER?
+                        <Link to="register">
+                            <button className="px-4 btn-warning">Create Your Account</button>
+                        </Link>
+                    </p>
                 </div>
             </div>
         </div>

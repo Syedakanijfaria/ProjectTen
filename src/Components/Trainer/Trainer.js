@@ -16,7 +16,8 @@ const Trainer = () => {
         <div className="teacher">
             <div className="container">
                 <div className="col">
-                    <h3 className="text-center text-decoration-underline mt-5 mb-5">Our Trainers</h3>
+                    <h1 className="text-center text-decoration-underline mt-5 mb-4">Our Trainers</h1>
+                    <h6 className="text-center text-warning mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sed do eiusmod consectetur adipiscing elit tempor. </h6>
                     {/* fake person loading caontainer */}
                     <div className="row row-cols-1 row-cols-md-2 m-auto g-5">
                         {data.map((data) =>

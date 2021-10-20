@@ -14,7 +14,7 @@ const Service = ({ service }) => {
                     <h2>{type}</h2>
                     <h5>{name}</h5>
                     <Link to={`/details/${key}`}>
-                        <button>{name.toUpperCase()} More Details </button>
+                        <button className="btn btn-warning">{name.toUpperCase()} MORE DETAILS</button>
                     </Link>
                 </div>
             </div>

@@ -6,12 +6,12 @@ const About = () => {
         <div>
             <div>
                 <Banner></Banner>
-                <h2 className="text-center text-decoration-underline mt-5">About Us</h2>
+                <h1 className="text-center text-decoration-underline mt-5">About Us</h1>
             </div>
             <div className="row m-5 p-5">
                 <div className="col-md-6">
-                    <h6 className="text-decoration-underline" >Our Mission</h6>
-                    <h2>Your Health is Our Priority</h2>
+                    <h5 className="text-warning text-decoration-underline " >Our Mission</h5>
+                    <h2 className="mb-4"> Your Health is Our Priority</h2>
                     <p>Tempus quam pellentesque nec nam aliquam sem et tortor.In dictum non consectetur a erat nam at lectus.Lorem ipsum dolor sit amet consectetur adipiscing.Nibh nisl condimentum id venenatis a.In nulla posuere sollicitudin aliquam.Et egestas quis ipsum suspendisse ultrices gravida.Tempus quam pellentesque nec nam aliquam sem et tortor. In dictum non consectetur a erat nam at lectus. Lorem ipsum dolor sit amet consectetur adipiscing. Nibh nisl condimentum id venenatis a. In nulla posuere sollicitudin aliquam. Et egestas quis ipsum suspendisse ultrices gravida.Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis montes, nascetur ridiculus mus. Sed vitae rutrum neque.</p>
                 </div>
                 <div className="col-md-6 ms-auto">
