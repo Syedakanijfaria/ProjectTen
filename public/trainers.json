@@ -1,142 +1,74 @@
 [
     {
         "id": 1,
-        "name": "Jhankar Mahbub",
-        "age": 36,
-        "occupation": "programmer",
-        "country": "Bangladesh",
-        "donation": 70000,
-        "role": "Principle",
-        "img": "https://miro.medium.com/max/3150/1*A8IqmApGUhvmD6A3A1TXBw.png"
+        "name": "Eddy Han",
+        "age": 33,
+        "country": "America",
+        "salary": 100000,
+        "role": "Owner",
+        "img": "https://i.ibb.co/QbDqpK4/Background-4.png"
     },
     {
         "id": 2,
-        "name": "Karina Islam",
-        "age": 34,
-        "occupation": "programmer",
-        "country": "Bangladesh",
-        "donation": 40000,
-        "role": "Teacher",
-        "img": "https://javascript-conference.com/wp-content/uploads/2018/01/Karina-Islam-1.jpg"
+        "name": "Erina Brain",
+        "age": 30,
+        "country": "America",
+        "salary": 40000,
+        "role": "Trainer",
+        "img": "https://i.ibb.co/myxhZ3R/Background-1.png"
     },
     {
         "id": 3,
-        "name": "Zulkarnine Mahmud",
+        "name": "Mpho Junior",
         "age": 32,
-        "occupation": "programmer",
-        "country": "Bangladesh",
-        "donation": 60000,
-        "role": "Teacher",
-        "img": "https://avatars.githubusercontent.com/u/6968100?v=4"
+        "country": "America",
+        "salary": 60000,
+        "role": "Trainer",
+        "img": "https://i.ibb.co/WV3ft2Q/Background-5.png"
     },
     {
         "id": 4,
-        "name": "Lara Hogan",
-        "age": 35,
-        "occupation": "programmer",
-        "country": "USA",
-        "donation": 80000,
-        "role": "Teacher",
-        "img": "https://miro.medium.com/max/512/1*U95ylP54PyimoabpcSUNpg.jpeg"
+        "name": "Kim Cheng",
+        "age": 27,
+        "country": "America",
+        "salary": 80000,
+        "role": "Trainer",
+        "img": "https://i.ibb.co/kxzdKtc/Background-2.png"
     },
     {
         "id": 5,
-        "name": "Anders Hejlsberg",
-        "age": 45,
-        "occupation": "programmer",
-        "country": "UK",
-        "donation": 70000,
-        "role": "Teacher",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Anders_Hejlsberg.jpg"
+        "name": "Anders Berg",
+        "age": 25,
+        "country": "America",
+        "salary": 70000,
+        "role": "Trainer",
+        "img": "https://i.ibb.co/hYTTNWh/Background-3.png"
     },
     {
         "id": 6,
         "name": "Jeff Atwood",
-        "age": 40,
-        "occupation": "programmer",
-        "country": "Australia",
-        "donation": 100000,
-        "role": "Teacher",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/3/36/Long_Zheng%2C_Dan_Rigsby%2C_Jeff_Atwood_%282979598012%29.jpg"
+        "age": 28,
+        "country": "America",
+        "salary": 50000,
+        "role": "Trainer",
+        "img": "https://i.ibb.co/WV3ft2Q/Background-5.png"
     },
     {
         "id": 7,
         "name": "John Resig",
-        "age": 38,
-        "occupation": "programmer",
-        "country": "USA",
-        "donation": 80000,
-        "role": "Teacher",
-        "img": "https://pbs.twimg.com/profile_images/1090714620275245056/HS9xcEDk_400x400.jpg"
+        "age": 37,
+        "country": "America",
+        "salary": 80000,
+        "role": "Senior Trainer",
+        "img": "https://i.ibb.co/hsnz24V/Background-6.png"
     },
     {
         "id": 8,
-        "name": "Bryan O’Sullivan",
-        "age": 43,
-        "occupation": "programmer",
-        "country": "Australia",
-        "donation": 90000,
-        "role": "Teacher",
-        "img": "https://avatars.githubusercontent.com/u/23374?v=4"
-    },
-    {
-        "id": 9,
-        "name": "Amanda Rosseau",
-        "age": 30,
-        "occupation": "programmer",
-        "country": "USA",
-        "donation": 47000,
-        "role": "Teacher",
-        "img": "https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_256,w_256,f_auto,g_faces,z_0.7,q_auto:eco,dpr_1/f5kxq50j9x5opvy5xaef"
-    },
-    {
-        "id": 10,
-        "name": "Ashe Dryden",
-        "age": 32,
-        "occupation": "programmer",
-        "country": "USA",
-        "donation": 38000,
-        "role": "Teacher",
-        "img": "https://images.modelviewculture.com/wp-content/uploads/2014/10/dryden_authorphoto.png"
-    },
-    {
-        "id": 11,
-        "name": "Daniel Ratcliffe",
-        "age": 36,
-        "occupation": "programmer",
-        "country": "USA",
-        "donation": 30000,
-        "role": "Teacher",
-        "img": "https://media.licdn.cn/dms/image/C5103AQEqhTWsN-f17g/profile-displayphoto-shrink_200_200/0/1516850063207?e=1636588800&v=beta&t=7waBTCgqscoURPCHm4y5dNUox4Den3TKmwSKdk9jrVI"
-    },
-    {
-        "id": 12,
-        "name": "Tracy Chou",
-        "age": 34,
-        "occupation": "programmer",
-        "country": "China",
-        "donation": 25000,
-        "role": "Teacher",
-        "img": "https://miro.medium.com/max/3150/1*QGOlZoDX_Zw9X1tCf6iFiA.jpeg"
-    },
-    {
-        "id": 13,
-        "name": "K. Scott Allen",
+        "name": "Jhon Bryan ",
         "age": 37,
-        "occupation": "programmer",
-        "country": "UK",
-        "donation": 39000,
-        "role": "Teacher",
-        "img": "https://images-na.ssl-images-amazon.com/images/I/61XmKcnHutL._SX450_.jpg"
-    },
-    {
-        "id": 14,
-        "name": "Rasmus Lerdorf",
-        "age": 40,
-        "occupation": "programmer",
-        "country": "USA",
-        "donation": 22000,
-        "role": "Teacher",
-        "img": "https://pbs.twimg.com/profile_images/918348833205116928/V9ROYRNJ.jpg"
+        "country": "America",
+        "salary": 90000,
+        "role": "Co-Owner",
+        "img": "https://i.ibb.co/zSyBV4K/Background-7.png"
     }
 ]

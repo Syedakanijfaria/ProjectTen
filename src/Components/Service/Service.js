@@ -8,7 +8,7 @@ const Service = ({ service }) => {
     const { key, name, type, img } = service;
     return (
         <div className="col">
-            <div className="card h-100">
+            <div className="card h-100 card-hover">
                 <img src={img} alt="" />
                 <div className="card-body">
                     <h2>{type}</h2>
