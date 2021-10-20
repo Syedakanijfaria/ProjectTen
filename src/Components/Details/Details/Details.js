@@ -25,15 +25,16 @@ const Details = () => {
 
     return (
         <div className="container">
-            <h1>{serviceId}</h1>
-            <h1>this is booking: {singleService?.name}</h1>
             <div className="row">
                 <div className="col col-rows-1 col=-rows-md-1 g-4">
                     <div className="card" >
-                        <img src="..." className="card-img-top" alt="..." />
+                        <img src={singleService?.picture?.thumbnail} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h3 className="card-title">{singleService?.name}</h3>
+                            <p className="card-text">{singleService?.des}</p>
+                            <h6>Phone: {singleService?.phone}</h6>
+                            <h6>Email: {singleService?.email}</h6>
+                            <h6>Location: {singleService?.location?.street},{singleService?.location?.city}</h6>
                         </div>
                     </div>
                 </div>
