@@ -16,7 +16,7 @@ const useFirebase = () => {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
 
-    const handleNewUserWithEmail = e => {
+    const handleNewUserWithEmail = (e, email, password) => {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
@@ -33,7 +33,7 @@ const useFirebase = () => {
         setPassword(e.target.value);
     }
 
-    const handleSignInWithEmail = () => {
+    const handleSignInWithEmail = (email, password) => {
         signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 //const user = result.user;
@@ -75,6 +75,8 @@ const useFirebase = () => {
         isLoading,
         handleNewUserWithEmail,
         handleSignInWithEmail,
+        handleEmailChange,
+        handlePasswordChange,
         signInGoogle,
         logOut
     }

@@ -31,8 +31,8 @@ const Package = () => {
                                 <p className="card-text text-warning">1 Free personal training</p>
                             </div>
                         </div>
-                        <div class="d-grid gap-2 button-hover">
-                            <button class="btn btn-warning" type="button">SELECT PLAN</button>
+                        <div className="d-grid gap-2 button-hover">
+                            <button className="btn btn-warning" type="button">SELECT PLAN</button>
                         </div>
                     </div>
                     <div className="col">
@@ -48,8 +48,8 @@ const Package = () => {
                                 <p className="card-text text-warning">2 Free personal training</p>
                             </div>
                         </div>
-                        <div class="d-grid gap-2 button-hover">
-                            <button class="btn btn-warning" type="button">SELECT PLAN</button>
+                        <div className="d-grid gap-2 button-hover">
+                            <button className="btn btn-warning" type="button">SELECT PLAN</button>
                         </div>
                     </div>
                     <div className="col">
@@ -65,8 +65,8 @@ const Package = () => {
                                 <p className="card-text text-warning">7 Free personal training</p>
                             </div>
                         </div>
-                        <div class="d-grid gap-2 button-hover">
-                            <button class="btn btn-warning" type="button">SELECT PLAN</button>
+                        <div className="d-grid gap-2 button-hover">
+                            <button className="btn btn-warning" type="button">SELECT PLAN</button>
                         </div>
                     </div>
                 </div>

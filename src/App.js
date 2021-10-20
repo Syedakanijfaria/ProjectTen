@@ -13,10 +13,6 @@ import Trainer from './Components/Trainer/Trainer.js';
 import Package from './Components/Package/Package.js';
 import Details from './Components/Details/Details/Details.js';
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute.js';
-import Service from './Components/Service/Service.js';
-
-
-
 
 
 
@@ -33,7 +29,6 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-
             <PrivateRoute path="/details/:serviceId">
               <Details></Details>
             </PrivateRoute>

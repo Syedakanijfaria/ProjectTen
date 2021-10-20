@@ -19,12 +19,9 @@ const Register = () => {
                         <label htmlFor="email" >Password: </label>
                         <input onBlur={handlePasswordChange} type="password" placeholder="Your Password" /> <br />
                         <br />
-                        <input className="ms-5" type="submit" value="Sign-Up" />
+                        <button className="ms-5" type="submit" >Sign-up</button>
                     </form>
                 </div>
-
-
-
 
 
 
