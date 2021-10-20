@@ -8,13 +8,11 @@
 
 
 
-It's based on different types of education.
+* It's based on health fitness.
 
-We provide online and offline education on various types of education such as dance, music, driving, cooking, language, etc.
+* We provide fitness guide and knowledge for a goodd health.
 
-We have the best quality and experienced teachers, they even gain your confidence and knowledge by practical teaching methods.
+* We have the best quality and experienced teachers, they even gain your confidence and knowledge by their training qualities.
 
 
-*Runs the app in the development mode.\
--Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-+In the project directory, you can run:
+
