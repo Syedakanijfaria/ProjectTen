@@ -17,7 +17,7 @@ const Header = () => {
                     <div className="col-md-2">
                         <div className="logo-img d-flex">
                             <img className="w-100" src={logo} alt="" />
-                            <h3 className="m-auto">POWER GYMNSTER</h3>
+                            <h3 className="m-auto">POWER GYMNSTER hello</h3>
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ const Header = () => {
                                 <Link to="/package" >Package</Link>
                                 <Link to="/trainer">Trainers</Link>
                                 <Link to="/about">About us</Link>
-                                <span style={{ color: 'white' }}>{user.displayName}</span>
+                                <span style={{ color: 'white' }}>{user?.displayName}</span>
                                 {
                                     user?.email ? <button onClick={logOut}>
                                         Log Out

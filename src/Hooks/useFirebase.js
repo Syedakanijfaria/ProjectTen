@@ -17,7 +17,6 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
 
     const handleNewUserWithEmail = () => {
-
         createUserWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 //const user = result.user;
@@ -37,17 +36,18 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then((result) => {
                 //const user = result.user;
+                //history.push(redirect_uri)
                 console.log(result.user);
             })
+        setIsLoading(true);
+
     }
 
 
 
     const signInGoogle = () => {
         setIsLoading(true);
-
         return signInWithPopup(auth, googleProvider)
-
     }
     const logOut = () => {
         signOut(auth)
